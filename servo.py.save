@@ -1,9 +1,0 @@
-# Import external modules
-import RPi.GPIO as IO
-
-# Pin setup
-IO.setmode(IO.BOARD) # use pin numbers on the board
-IO.setup(11,IO.OUT) # pin11(GPIO1
-IO.PWM(11, 50) # set 
-
-
